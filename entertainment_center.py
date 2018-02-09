@@ -62,7 +62,7 @@ monstros_sa = media.Movie("Monstros S.A",
                          "https://youtu.be/iRh2kF-1X2E")
 
 poderoso_chefinho = media.Movie("O Poderoso Chefinho",
-                               "Um bebê falante que usa terno e carrega uma maleta irá tentar impedir que acabe o amor no mundo para isso contará coma  ajuda de seu irmão.",
+                               "Um bebê falante que usa terno e carrega uma maleta irá tentar impedir que acabe o amor no mundo, e para isso contará coma  ajuda de seu irmão.",
                                "Animação e Comédia.",
                                "30 de marco de 2017 no Brasil.",
                                "Tom McGrath.",
