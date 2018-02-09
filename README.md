@@ -11,8 +11,8 @@ Irá gerar um arquivo nomeado fun.html, esse arquivo irá abrir no browser exibi
 # Como o site é gerado
 
 ## `media.py`
-No arquivo `media.py` esta definida a classe `Movie`, esta classe fornece uma maneira de armazenar informacoes relacionadas aos filmes.
-  Na classe `Movie` está definido o construtor `_init_` que recebe as várias listads abaixo.
+No arquivo `media.py` esta definida a classe `Movie`, esta classe fornece uma maneira de armazenar informações relacionadas aos filmes.
+  Na classe `Movie` está definido o construtor `_init_` que recebe as variáveis listadas abaixo.
   - movie_title,
   - movie_storyline, 
   - movie_genre, 
@@ -21,9 +21,8 @@ No arquivo `media.py` esta definida a classe `Movie`, esta classe fornece uma ma
   - poster_image,
   - trailer_youtube.
   Estas variáveis vão armazenar os valores dos filmes que posteriormente serão exibidos no html.
-  Na classe `Movie` também está definido o metodo `show_trailer`que irá abrir o navegador Web com a Url correta, que é a Url que esta    
-  armazenada na variável de instancia "trailer_youtube_url", e a forma de acessar essa variável de instancia é através da palavra chave
-  "self".
+  Na classe `Movie` também está definido o metodo `show_trailer` que irá abrir o navegador Web com a Url correta, que é a Url que esta  armazenada na variável de instancia "trailer_youtube_url", e a forma de acessar essa variável de instancia é através da palavra chave
+"self".
 
 ## `entertainment_center.py`
 No arquivo `entertainment_center.py` será definido os valores que serão exibidos no browser.
