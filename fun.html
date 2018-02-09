@@ -1,0 +1,555 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>Alegria</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <style type="text/css" media="screen">
+        body {
+            padding-top: 80px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        .trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #EEE;
+            cursor: pointer;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 90%;
+            left: 32;
+            top: 12;
+            background-color: white;
+        }
+        .cabecalho {
+            background-color: #0038a8;
+        }
+        .navbar-brand {
+            font-size: 25px;
+            height: 40px;
+            color: white;
+        }
+        .text-personal {
+        color: #0038a8;
+        }
+        .espacamento {
+        padding-bottom: 40px;
+        }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+          });
+
+          // comentar do truque
+          $('.modal').on('hidden.bs.modal', function() {
+              var $this = $(this).find('iframe');
+              var src = $this.attr('src');
+              $this.attr('src', "");
+              $this.attr('src', src);
+          });
+        });
+        </script>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-fixed-top cabecalho" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Alegria Trailers!!!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          
+<div class="modal" id="o5TbwxDTn28">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/o5TbwxDTn28" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Os Smurfs</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Gargamel quer capturar os Smurfs para ter eles como amuletos.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 5 de Agosto de 2011 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Raja Gosnell.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#o5TbwxDTn28">
+    <img src="https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=5345846&qld=90&l=430&a=-1" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Os Smurfs</b></h3>
+</div>
+
+<div class="modal" id="iryIGZlE5B4">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/iryIGZlE5B4" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Ratatouille</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Remy é um rato que reside em Paris e sonha em ser um chef de cozinha.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Animação e Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 6 de Julho de 2007 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Brad Bird.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#iryIGZlE5B4">
+    <img src="http://www.cafecomfilme.com.br/media/k2/items/cache/95af20a543d0ffa5a101ab798fe1da12_XL.jpg " width="220" height="342">
+    <h3 class="text-center text-personal"><b>Ratatouille</b></h3>
+</div>
+
+<div class="modal" id="rHiHRhbTv-Q">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/rHiHRhbTv-Q" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>O Rei Leão</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Esse desenho mostra as aventuras de um leão e seus amigos Timon e Pumba.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Animação, Aventura, Drama e Épico.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 8 de julho de 1994 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Roger Allers, Rob Minkoff.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#rHiHRhbTv-Q">
+    <img src="https://vignette.wikia.nocookie.net/disney/images/c/c7/Poster-rei-leao-full.jpeg/revision/latest?cb=20160925204728&path-prefix=pt-br" width="220" height="342">
+    <h3 class="text-center text-personal"><b>O Rei Leão</b></h3>
+</div>
+
+<div class="modal" id="0qZEa4xeLmU">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/0qZEa4xeLmU" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Frozen</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>A jovem princesa Anna, parte em uma jornada com seus amigos para encontrar sua irmã, a rainha Elsa.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Musical, Fantasia e Comédia dramática.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 3 de janeiro de 2014 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Chris Buck, Jennifer Lee.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#0qZEa4xeLmU">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/A1ltEcBQCvL._RI_SX200_.jpg" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Frozen</b></h3>
+</div>
+
+<div class="modal" id="hwxqLjspkDI">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/hwxqLjspkDI" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Up - Altas Aventuras</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Carl é um senhor de 78 anos que vai encarrar uma aventura pela America do Sul com o menino Ruseel de 8 anos.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Comédia, Animação e Aventura.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 4 de setembro de 2009 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Pete Docter.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#hwxqLjspkDI">
+    <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-m0flh1_c3f39708.jpeg?region=0,0,300,450" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Up - Altas Aventuras</b></h3>
+</div>
+
+<div class="modal" id="_McNwvfvu4s">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/_McNwvfvu4s" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Zootopia</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Em uma cidade de animais, uma raposa se torna uma fugitiva ao ser acusada de um crime que não cometeu.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Fantasia, Aventura e Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 17 de março de 2016 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Byron Howard, Rich Moore.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#_McNwvfvu4s">
+    <img src="http://www.biggarcornexchange.org.uk/wp-content/uploads/zootropolis-poster-2.jpg" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Zootopia</b></h3>
+</div>
+
+<div class="modal" id="iRh2kF-1X2E">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/iRh2kF-1X2E" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Monstros S.A</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>A fábrica de monstros conta com James e Mike ambos tem o trabalhos de assustar crianças, até conhecerem a Boo.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Animação, Fantasia e Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 14 de novembro de 2001 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Pete Docter.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#iRh2kF-1X2E">
+    <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-cbntla_d945f607.jpeg" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Monstros S.A</b></h3>
+</div>
+
+<div class="modal" id="QYYsJkUl7TY">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/QYYsJkUl7TY" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>O Poderoso Chefinho</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Um bebê falante que usa terno e carrega uma maleta irá tentar impedir que acabe o amor no mundo para isso contará coma  ajuda de seu irmão.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Animação e Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 30 de marco de 2017 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Tom McGrath.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#QYYsJkUl7TY">
+    <img src="http://br.web.img2.acsta.net/pictures/16/10/18/16/29/576071.jpg" width="220" height="342">
+    <h3 class="text-center text-personal"><b>O Poderoso Chefinho</b></h3>
+</div>
+
+<div class="modal" id="oIb4tghqQD4">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+        <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+      </a>
+      <div class = "modal-body">
+          <div class = "row">
+            <div class = "cl-md-12">
+                <div class = "scale-media">
+                <iframe type="text-html" src="http://www.youtube.com/embed/oIb4tghqQD4" frameborder="0">
+                </iframe>
+                </div>
+              </div>
+           </div>
+            <div class = "row">
+              <div class = "cl-md-12">
+                <br>
+                <h4 class="text-capitalize text-center text-personal"><b>Procurando Nemo</b></h4>
+              </div>
+           </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <h5 class="text-capitalize text-left"><b>Em seu primeiro dia de aula, Nemo é capturado por um mergulhador e acaba no aquário de um dentista.</b></h5>
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Genero</strong>: Animação, Aventura e Comédia.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Data de Lançamento</strong>: 4 de Julho de 2003 no Brasil.
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "cl-md-12">
+              <strong>Diretor</strong>: Andrew Stanton.
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 text-center espacamento" data-toggle="modal" data-target="#oIb4tghqQD4">
+    <img src="https://i1.wp.com/psicosaber.wordpress.com/files/2009/05/procurando-nemo-poster04.jpg?resize=1400%2C9999" width="220" height="342">
+    <h3 class="text-center text-personal"><b>Procurando Nemo</b></h3>
+</div>
+
+        </div>
+    </div>
+  </body>
+</html>
